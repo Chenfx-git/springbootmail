@@ -16,7 +16,7 @@ public class ReciveIMAPmail {
 
     public static void main(String[] args) throws Exception {
         messagessl();
-        // 准备连接服务器的会话信息
+        // 准备连接服务器的会话信息111
         Properties props = new Properties();
         props.setProperty("mail.store.protocol", "imap");
         props.setProperty("mail.imap.host", "smtp.qq.com");
