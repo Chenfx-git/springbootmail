@@ -29,7 +29,7 @@ public class ReciveIMAPmail {
         Store store = session.getStore("imap");
 
         // 连接邮件服务器
-        store.connect("380119651@qq.com", "pnykcsuuvascbiaj");
+        store.connect("", "");
 
         // 获得收件箱
         Folder folder = store.getFolder("INBOX");
@@ -95,7 +95,7 @@ public class ReciveIMAPmail {
             Store store = session.getStore("imap");
             // 连接邮件服务器
 
-            store.connect("imap.qq.com", 993, "380119651@qq.com", "pnykcsuuvascbiaj");
+            store.connect("imap.qq.com", 993, "", "");
             // 获得收件箱
             Folder folder = store.getFolder("INBOX");
             // 以读写模式打开收件箱

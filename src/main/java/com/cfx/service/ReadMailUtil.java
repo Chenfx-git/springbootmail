@@ -32,7 +32,7 @@ public class ReadMailUtil {
         //建立邮件会话
         Session session = Session.getInstance(props, null);
         //设置连接邮件仓库的环境
-        URLName url = new URLName("imap", "imap.qq.com", 993, null, "380119651@qq.com", "pnykcsuuvascbiaj");
+        URLName url = new URLName("imap", "imap.qq.com", 993, null, "", "");
         Store store = null;
         Folder inbox = null;
         try {
